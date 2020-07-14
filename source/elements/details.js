@@ -1,10 +1,13 @@
-import { Quantum, define } from '../../references/quantum.js';
-import { details } from '../templates/details.js';
+import { Component } from '../../references/quantum.js';
 
-export class Details extends Quantum {
+export class Details extends Component {
     constructor() {
-        super(details);
+        super();
     }
+
+    static template = document.querySelector('#quantum-details');
+
+    static attributes = [];
 }
 
-define(Details);
+customElements.define('quantum-details', Details);
