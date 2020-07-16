@@ -1,5 +1,5 @@
 import { Component, template } from '../../references/quantum.js';
-import html from '../templates/element.js';
+import html from '../templates/details.js';
 
 export class Details extends Component {
     constructor() {
