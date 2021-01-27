@@ -1,5 +1,7 @@
 import html from '../templates/details.js';
 
+const { Component, template, define } = quantum;
+
 export class Details extends Component {
     constructor() {
         super();
