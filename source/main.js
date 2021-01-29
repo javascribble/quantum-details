@@ -1,3 +1,3 @@
-import * as details from './elements/details.js';
+import { Details } from './elements/details.js';
 
-Object.assign(quantum, details);
+Quantum.Details = Details;
